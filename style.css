@@ -1,0 +1,120 @@
+/* Estilo general */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0d0d0d;
+  font-family: 'Segoe UI', sans-serif;
+  color: #ffffff;
+  line-height: 1.6;
+}
+
+/* Header principal */
+.hero {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: linear-gradient(to bottom, #0d0d0d 70%, #1a1a1a);
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  color: #d4af37; /* dorado opaco */
+  margin-bottom: 0.5rem;
+}
+
+.hero h2 {
+  font-size: 1.3rem;
+  color: #a3ffb0; /* verde musgo claro */
+  margin-bottom: 1rem;
+}
+
+.hero .frase {
+  font-style: italic;
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  color: #ccc;
+}
+
+/* Imagen de perfil */
+.perfil {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  box-shadow: 0 0 25px #66ff99;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+/* Botones */
+.botones a {
+  display: inline-block;
+  margin: 0.5rem;
+  padding: 0.6rem 1.2rem;
+  background-color: #d4af37;
+  color: #0d0d0d;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.botones a:hover {
+  background-color: #a3ffb0;
+  color: #0d0d0d;
+}
+
+/* Secciones */
+section {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+section h2 {
+  font-size: 1.8rem;
+  color: #a3ffb0;
+  margin-bottom: 1rem;
+}
+
+/* Proyectos */
+.proyecto {
+  background-color: #1a1a1a;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  border-left: 5px solid #d4af37;
+  border-radius: 4px;
+}
+
+.proyecto h3 {
+  color: #d4af37;
+  margin-top: 0;
+}
+
+.proyecto a {
+  color: #a3ffb0;
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1.5rem;
+  background-color: #000;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 1.8rem;
+  }
+
+  .hero h2 {
+    font-size: 1.1rem;
+  }
+
+  .perfil {
+    width: 140px;
+    height: 140px;
+  }
+}
