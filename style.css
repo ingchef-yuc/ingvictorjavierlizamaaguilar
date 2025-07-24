@@ -118,3 +118,29 @@ footer {
     height: 140px;
   }
 }
+/* Imágenes laterales en sección sobre mí */
+.personal {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: flex-start;
+}
+
+.foto-lateral {
+  width: 180px;
+  border-radius: 10px;
+  box-shadow: 0 0 12px #1f1f1f;
+}
+
+/* Proyectos con imagen */
+.con-imagen {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.con-imagen img {
+  width: 120px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #333;
+}
