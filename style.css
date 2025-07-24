@@ -58,7 +58,7 @@ body {
 }
 
 .botones a:hover {
-  background-color: #a3ffb0;
+  background-color: #4b805f;
   color: #0d0d0d;
 }
 
@@ -71,7 +71,7 @@ section {
 
 section h2 {
   font-size: 1.8rem;
-  color: #a3ffb0;
+  color: #4b805f;
   margin-bottom: 1rem;
 }
 
@@ -90,7 +90,7 @@ section h2 {
 }
 
 .proyecto a {
-  color: #a3ffb0;
+  color: #4b805f;
   text-decoration: underline;
 }
 
@@ -118,36 +118,6 @@ footer {
     height: 140px;
   }
 }
-<section>
-  <h2>Sobre mí</h2>
-  <p>Soy Víctor, cocinero, estudiante de Ingeniería Industrial y de Sistemas, padre y creyente...</p>
-
-  <div class="personal">
-    <img src="hijos.jpg" alt="Con mis hijos" class="foto-lateral">
-    <img src="matrimonio.jpg" alt="Mi matrimonio" class="foto-lateral">
-  </div>
-</section>
-
-
-<section>
-  <h2>Proyectos</h2>
-
-  <div class="proyecto con-imagen">
-    <img src="canal-youtube.jpg" alt="Canal de YouTube" class="imagen-cuadrada">
-    <div>
-      <h3>La Engordadera (YouTube)</h3>
-      <p>Mi canal de cocina donde comparto recetas e ideas con humor y sazón. <a href="#">Visítalo aquí</a>.</p>
-    </div>
-  </div>
-
-  <div class="proyecto con-imagen">
-    <img src="desayuno-leo.jpg" alt="Lonchería Leo" class="imagen-cuadrada">
-    <div>
-      <h3>Lonchería Leo</h3>
-      <p>Negocio familiar de desayunos en Mérida, manejado junto a mi madre.</p>
-    </div>
-  </div>
-</section>
 
 /* Imagen más pequeña para sobre mí */
 .imagen-sobremi {
@@ -202,4 +172,9 @@ footer {
   box-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
   margin: 10px;
   display: inline-block;
+}
+.personal {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
