@@ -138,6 +138,33 @@ footer {
   gap: 1rem;
   align-items: center;
 }
+/* Estilo general para imágenes cuadradas */
+.imagen-cuadrada {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(255, 215, 0, 0.6); /* sombra dorada suave */
+  margin: 10px auto;
+  display: block;
+}
+
+/* Imagen más pequeña para sobre mí */
+.imagen-sobremi {
+  width: 120px;
+  height: 120px;
+}
+
+/* Imagen de perfil (en el header o presentación) */
+.perfil-img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 0 12px rgba(255, 215, 0, 0.8);
+  margin: 0 auto 20px;
+  display: block;
+}
 
 .con-imagen img {
   width: 120px;
