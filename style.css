@@ -10,8 +10,6 @@ body {
 
 /* Header principal */
 .hero {
-  <img src="victor-chef.jpg" alt="Víctor Javier Lizama Aguilar" class="perfil-img">
-
   text-align: center;
   padding: 4rem 2rem;
   background: linear-gradient(to bottom, #0d0d0d 70%, #1a1a1a);
@@ -25,7 +23,7 @@ body {
 
 .hero h2 {
   font-size: 1.3rem;
-  color: #a3ffb0; /* verde musgo claro */
+  color: #4b805f; /* verde musgo */
   margin-bottom: 1rem;
 }
 
