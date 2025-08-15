@@ -1,4 +1,4 @@
-# 👨‍💻 Víctor Lizama
+# 👨‍💻 Victor Lizama
 
 > **Ingeniero Industrial y de Sistemas** | Cyberseguridad en formación | Chef en formación | Emprendedor  
 > 🧑‍🍳 Padre de familia de día, rockero de noche  
